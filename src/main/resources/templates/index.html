@@ -1,28 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 <head>
 	<title>WELCOME</title>
-	<style>
-				table {
-					font-family: arial, sans-serif;
-					border-collapse: collapse;
-					width: 100%;
-				}
-
-				td,
-				th {
-					border: 1px solid #dddddd;
-					text-align: left;
-					padding: 8px;
-				}
-
-				tr:nth-child(even) {
-					background-color: #dddddd;
-				}
-			</style>
+	<link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
-	<center><h1>CREATE NEW TUTORIAL</h1></center>
+	<h1>CREATE NEW TUTORIAL</h1>
 	<a href="/tutorial">DANH SÁCH</a>
 	<table>
 	<form th:action="@{/create}" method="post">
