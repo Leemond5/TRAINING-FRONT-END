@@ -1,0 +1,40 @@
+
+body {
+    background-image: url(../image/login-bg.png), url(../image/login-bg.png);
+   	background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: -20px 0 50px;
+}
+button {
+    border-radius: 20px;
+    border: 1px solid #FF4B2B;
+    background-color: #FF4B2B;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    
+  
+   
+}
+input {
+    background-color: #eee;
+    border: black;
+  
+}
+h1{
+	
+	color: crimson;
+	text-align: center;
+}
+table {
+	  width: 100%;
+}
+
+th {
+  height: 70px;	
+}
+tr:hover {background-color: coral;}

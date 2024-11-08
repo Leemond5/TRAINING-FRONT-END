@@ -3,7 +3,7 @@
 
 <head>
 	<title>WELCOME</title>
-	<link rel="stylesheet" href="./css/style.css" />
+	<link rel="stylesheet" href="/css/style.css" />
 
 </head>
 
@@ -28,8 +28,8 @@
 			<td>[[${dto.id}]]</td>
 			<td>[[${dto.title}]] </td>
 			<td>[[${dto.description}]] </td>
-			<td><a th:href="@{/editTutorial/{id}(id = ${dto.id})}">UPDATE</a></td>
-			<td><a th:href="@{'/tutorial/' + ${dto.id}}">DELECT</a></td>
+			<td><a th:href="@{/editTutorial/{id}(id = ${dto.id})}"><img width="40px" src="../image/upgrade-update-icon.png" alt="Icon"></a></td>
+			<td><a th:href="@{'/tutorial/' + ${dto.id}}"><img width="80px" src="../image/delete.png" alt="Icon"></a></td>
 		</tr>
 	</table>
 </body>
